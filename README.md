@@ -24,19 +24,21 @@ i3Chat 是一款面向 macOS 的原生 IRC 客户端，使用 Objective-C + AppK
 
 ### 截图
 
-![登录窗口](images/login.png)
+| 登录窗口 | 主聊天窗口 |
+| --- | --- |
+| ![登录窗口](images/login.png) | ![主聊天窗口](images/chat.png) |
 
-![主聊天窗口](images/chat.png)
+| 频道列表 | 群组窗口 |
+| --- | --- |
+| ![频道列表](images/channel.png) | ![群组窗口](images/group.png) |
 
-![频道列表](images/channel.png)
+| 收藏窗口 | 历史记录窗口 |
+| --- | --- |
+| ![收藏窗口](images/favorite.png) | ![历史记录窗口](images/history.png) |
 
-![群组窗口](images/group.png)
-
-![收藏窗口](images/favorite.png)
-
-![历史记录窗口](images/history.png)
-
-![App Store 页面](images/appstore.png)
+| App Store 页面 |  |
+| --- | --- |
+| ![App Store 页面](images/appstore.png) |  |
 
 ### 技术信息
 
@@ -111,19 +113,21 @@ i3Chat is a native IRC client for macOS, built with Objective-C and AppKit. It f
 
 ### Screenshots
 
-![Login Window](images/login.png)
+| Login Window | Main Chat Window |
+| --- | --- |
+| ![Login Window](images/login.png) | ![Main Chat Window](images/chat.png) |
 
-![Main Chat Window](images/chat.png)
+| Channel List | Group Window |
+| --- | --- |
+| ![Channel List](images/channel.png) | ![Group Window](images/group.png) |
 
-![Channel List](images/channel.png)
+| Favorites Window | History Window |
+| --- | --- |
+| ![Favorites Window](images/favorite.png) | ![History Window](images/history.png) |
 
-![Group Window](images/group.png)
-
-![Favorites Window](images/favorite.png)
-
-![History Window](images/history.png)
-
-![App Store Listing](images/appstore.png)
+| App Store Listing |  |
+| --- | --- |
+| ![App Store Listing](images/appstore.png) |  |
 
 ### Technical Notes
 
