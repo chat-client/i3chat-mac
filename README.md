@@ -22,6 +22,22 @@ i3Chat 是一款面向 macOS 的原生 IRC 客户端，使用 Objective-C + AppK
 - WHOIS / LINKS / 频道列表：支持常见 IRC 服务器信息查询功能。
 - 中英文界面：内置 English 与 Simplified Chinese 本地化。
 
+### 截图
+
+![登录窗口](images/login.png)
+
+![主聊天窗口](images/chat.png)
+
+![频道列表](images/channel.png)
+
+![群组窗口](images/group.png)
+
+![收藏窗口](images/favorite.png)
+
+![历史记录窗口](images/history.png)
+
+![App Store 页面](images/appstore.png)
+
 ### 技术信息
 
 - 语言：Objective-C (ARC)
@@ -92,6 +108,22 @@ i3Chat is a native IRC client for macOS, built with Objective-C and AppKit. It f
 - Favorites support: save useful chat items for quick access.
 - IRC info tools: includes WHOIS, LINKS, and channel list capabilities.
 - Bilingual UI: built-in English and Simplified Chinese localization.
+
+### Screenshots
+
+![Login Window](images/login.png)
+
+![Main Chat Window](images/chat.png)
+
+![Channel List](images/channel.png)
+
+![Group Window](images/group.png)
+
+![Favorites Window](images/favorite.png)
+
+![History Window](images/history.png)
+
+![App Store Listing](images/appstore.png)
 
 ### Technical Notes
 
