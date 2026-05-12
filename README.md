@@ -1,2 +1,2 @@
 # i3chat-mac
-The IRC Client for macOS.
+This is an IRC client for macOS with many useful features.
