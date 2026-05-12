@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A4F6242B0D1C0000A1B3F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A4F6442B0D1BF100A1B3F0 /* Foundation.framework */; };
+		01A4F6252B0D1C0000A1B3F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A4F6452B0D1BF100A1B3F0 /* Cocoa.framework */; };
+		01A4F6262B0D1C0000A1B3F0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A4F6462B0D1BF100A1B3F0 /* AppKit.framework */; };
+		01A4F6272B0D1C0000A1B3F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A4F6472B0D1BF100A1B3F0 /* QuartzCore.framework */; };
+		01A4F6282B0D1C0000A1B3F0 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F6412B0D1BF100A1B3F0 /* sqlite3.c */; };
+		01A4F6292B0D1C0000A1B3F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F61A2B0D1BF000A1B3F0 /* main.m */; };
+		01A4F62A2B0D1C0000A1B3F0 /* IRCConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F61B2B0D1BF000A1B3F0 /* IRCConfig.m */; };
+		01A4F62B2B0D1C0000A1B3F0 /* IRCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F61C2B0D1BF000A1B3F0 /* IRCClient.m */; };
+		01A4F62C2B0D1C0000A1B3F0 /* StorageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F61D2B0D1C0000A1B3F0 /* StorageConstants.m */; };
+		01A4F62D2B0D1C0000A1B3F0 /* MessageStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F61E2B0D1C0000A1B3F0 /* MessageStorage.m */; };
+		01A4F62E2B0D1C0000A1B3F0 /* ServerHistoryStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F61F2B0D1C0000A1B3F0 /* ServerHistoryStorage.m */; };
+		01A4F62F2B0D1C0000A1B3F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F6202B0D1C0000A1B3F0 /* AppDelegate.m */; };
+		01A4F6302B0D1C0000A1B3F0 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F6212B0D1C0000A1B3F0 /* MainWindowController.m */; };
+		01A4F6312B0D1C0000A1B3F0 /* LoginWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F62B2B0D1BF100A1B3F0 /* LoginWindowController.m */; };
+		01A4F6322B0D1C0000A1B3F0 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F62C2B0D1BF100A1B3F0 /* ChatViewController.m */; };
+		01A4F6332B0D1C0000A1B3F0 /* ChatViewController+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F62D2B0D1BF100A1B3F0 /* ChatViewController+UI.m */; };
+		01A4F6342B0D1C0000A1B3F0 /* ChatViewController+Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F62E2B0D1BF100A1B3F0 /* ChatViewController+Channel.m */; };
+		01A4F6352B0D1C0000A1B3F0 /* ChatViewController+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F62F2B0D1BF100A1B3F0 /* ChatViewController+Message.m */; };
+		01A4F6362B0D1C0000A1B3F0 /* ChatViewController+IRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F6302B0D1BF100A1B3F0 /* ChatViewController+IRC.m */; };
+		01A4F6372B0D1C0000A1B3F0 /* ChatViewController+DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F6312B0D1BF100A1B3F0 /* ChatViewController+DataSource.m */; };
+		01A4F6382B0D1C0000A1B3F0 /* ChatViewController+Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F6322B0D1BF100A1B3F0 /* ChatViewController+Menu.m */; };
+		01A4F6392B0D1C0000A1B3F0 /* ChatViewController+Input.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F6332B0D1BF100A1B3F0 /* ChatViewController+Input.m */; };
+		01A4F63A2B0D1C0000A1B3F0 /* ChatViewController+Favorites.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F6342B0D1BF100A1B3F0 /* ChatViewController+Favorites.m */; };
+		01A4F63B2B0D1C0000A1B3F0 /* ChannelBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F6352B0D1BF100A1B3F0 /* ChannelBuffer.m */; };
+		01A4F63C2B0D1C0000A1B3F0 /* ChannelListWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F6362B0D1BF100A1B3F0 /* ChannelListWindowController.m */; };
+		01A4F63D2B0D1C0000A1B3F0 /* LinksListWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F6372B0D1BF100A1B3F0 /* LinksListWindowController.m */; };
+		01A4F63E2B0D1C0000A1B3F0 /* WhoisWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F6382B0D1BF100A1B3F0 /* WhoisWindowController.m */; };
+		01A4F63F2B0D1C0000A1B3F0 /* HistoryWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F6392B0D1BF100A1B3F0 /* HistoryWindowController.m */; };
+		01A4F6402B0D1C0000A1B3F0 /* SettingsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F63A2B0D1BF100A1B3F0 /* SettingsWindowController.m */; };
+		01A4F6412B0D1C0000A1B3F0 /* LocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4F63B2B0D1BF100A1B3F0 /* LocalizationManager.m */; };
+		01A4F6422B0D1C0000A1B3F0 /* AppIcon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 01A4F63C2B0D1BF100A1B3F0 /* AppIcon.iconset */; };
+		01A4F6432B0D1C0000A1B3F0 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 01A4F63D2B0D1BF100A1B3F0 /* en.lproj */; };
+		01A4F6442B0D1C0000A1B3F0 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 01A4F63E2B0D1BF100A1B3F0 /* zh-Hans.lproj */; };
+		01A4F6502B0D1C0000A1B3F0 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A4F6512B0D1C0000A1B3F0 /* background.png */; };
+		01A4F6522B0D1C0000A1B3F0 /* banner.gif in Resources */ = {isa = PBXBuildFile; fileRef = 01A4F6532B0D1C0000A1B3F0 /* banner.gif */; };
+		01A4F6542B0D1C0000A1B3F0 /* banner_horse.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A4F6552B0D1C0000A1B3F0 /* banner_horse.png */; };
+		01A4F6562B0D1C0000A1B3F0 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A4F6572B0D1C0000A1B3F0 /* AppIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01A4F6162B0D1BF000A1B3F0 /* i3Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = i3Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A4F61A2B0D1BF000A1B3F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		01A4F61B2B0D1BF000A1B3F0 /* IRCConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRCConfig.m; sourceTree = "<group>"; };
+		01A4F61C2B0D1BF000A1B3F0 /* IRCClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRCClient.m; sourceTree = "<group>"; };
+		01A4F61D2B0D1C0000A1B3F0 /* StorageConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorageConstants.m; sourceTree = "<group>"; };
+		01A4F61E2B0D1C0000A1B3F0 /* MessageStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageStorage.m; sourceTree = "<group>"; };
+		01A4F61F2B0D1C0000A1B3F0 /* ServerHistoryStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerHistoryStorage.m; sourceTree = "<group>"; };
+		01A4F6202B0D1C0000A1B3F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01A4F6212B0D1C0000A1B3F0 /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		01A4F62B2B0D1BF100A1B3F0 /* LoginWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginWindowController.m; sourceTree = "<group>"; };
+		01A4F62C2B0D1BF100A1B3F0 /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		01A4F62D2B0D1BF100A1B3F0 /* ChatViewController+UI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ChatViewController+UI.m"; sourceTree = "<group>"; };
+		01A4F62E2B0D1BF100A1B3F0 /* ChatViewController+Channel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ChatViewController+Channel.m"; sourceTree = "<group>"; };
+		01A4F62F2B0D1BF100A1B3F0 /* ChatViewController+Message.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ChatViewController+Message.m"; sourceTree = "<group>"; };
+		01A4F6302B0D1BF100A1B3F0 /* ChatViewController+IRC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ChatViewController+IRC.m"; sourceTree = "<group>"; };
+		01A4F6312B0D1BF100A1B3F0 /* ChatViewController+DataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ChatViewController+DataSource.m"; sourceTree = "<group>"; };
+		01A4F6322B0D1BF100A1B3F0 /* ChatViewController+Menu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ChatViewController+Menu.m"; sourceTree = "<group>"; };
+		01A4F6332B0D1BF100A1B3F0 /* ChatViewController+Input.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ChatViewController+Input.m"; sourceTree = "<group>"; };
+		01A4F6342B0D1BF100A1B3F0 /* ChatViewController+Favorites.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ChatViewController+Favorites.m"; sourceTree = "<group>"; };
+		01A4F6352B0D1BF100A1B3F0 /* ChannelBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChannelBuffer.m; sourceTree = "<group>"; };
+		01A4F6362B0D1BF100A1B3F0 /* ChannelListWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChannelListWindowController.m; sourceTree = "<group>"; };
+		01A4F6372B0D1BF100A1B3F0 /* LinksListWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinksListWindowController.m; sourceTree = "<group>"; };
+		01A4F6382B0D1BF100A1B3F0 /* WhoisWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhoisWindowController.m; sourceTree = "<group>"; };
+		01A4F6392B0D1BF100A1B3F0 /* HistoryWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryWindowController.m; sourceTree = "<group>"; };
+		01A4F63A2B0D1BF100A1B3F0 /* SettingsWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsWindowController.m; sourceTree = "<group>"; };
+		01A4F63B2B0D1BF100A1B3F0 /* LocalizationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizationManager.m; sourceTree = "<group>"; };
+		01A4F63C2B0D1BF100A1B3F0 /* AppIcon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = AppIcon.iconset; sourceTree = "<group>"; };
+		01A4F63D2B0D1BF100A1B3F0 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		01A4F63E2B0D1BF100A1B3F0 /* zh-Hans.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hans.lproj"; sourceTree = "<group>"; };
+		01A4F63F2B0D1BF100A1B3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		01A4F6402B0D1BF100A1B3F0 /* DebugLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = SOURCE_ROOT; };
+		01A4F6412B0D1BF100A1B3F0 /* sqlite3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		01A4F6422B0D1BF100A1B3F0 /* sqlite3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		01A4F6432B0D1BF100A1B3F0 /* sqlite3ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sqlite3ext.h; sourceTree = "<group>"; };
+		01A4F6442B0D1BF100A1B3F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01A4F6452B0D1BF100A1B3F0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		01A4F6462B0D1BF100A1B3F0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		01A4F6472B0D1BF100A1B3F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		01A4F6512B0D1C0000A1B3F0 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		01A4F6532B0D1C0000A1B3F0 /* banner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = banner.gif; sourceTree = "<group>"; };
+		01A4F6552B0D1C0000A1B3F0 /* banner_horse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_horse.png; sourceTree = "<group>"; };
+		01A4F6572B0D1C0000A1B3F0 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01A4F6132B0D1BF000A1B3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A4F6242B0D1C0000A1B3F0 /* Foundation.framework in Frameworks */,
+				01A4F6252B0D1C0000A1B3F0 /* Cocoa.framework in Frameworks */,
+				01A4F6262B0D1C0000A1B3F0 /* AppKit.framework in Frameworks */,
+				01A4F6272B0D1C0000A1B3F0 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A4F60E2B0D1BF000A1B3F0 = {
+			isa = PBXGroup;
+			children = (
+				01A4F6402B0D1BF100A1B3F0 /* DebugLog.h */,
+				01A4F63F2B0D1BF100A1B3F0 /* Info.plist */,
+				01A4F61A2B0D1BF000A1B3F0 /* main.m */,
+				01A4F6482B0D1BF100A1B3F0 /* IRCClient */,
+				01A4F6492B0D1BF100A1B3F0 /* Storage */,
+				01A4F64A2B0D1BF100A1B3F0 /* UI */,
+				01A4F64B2B0D1BF100A1B3F0 /* third-party */,
+				01A4F64C2B0D1BF100A1B3F0 /* Resources */,
+				01A4F64D2B0D1BF100A1B3F0 /* Frameworks */,
+				01A4F6152B0D1BF000A1B3F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01A4F6152B0D1BF000A1B3F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01A4F6162B0D1BF000A1B3F0 /* i3Chat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01A4F6482B0D1BF100A1B3F0 /* IRCClient */ = {
+			isa = PBXGroup;
+			children = (
+				01A4F61B2B0D1BF000A1B3F0 /* IRCConfig.m */,
+				01A4F61C2B0D1BF000A1B3F0 /* IRCClient.m */,
+			);
+			path = IRCClient;
+			sourceTree = SOURCE_ROOT;
+		};
+		01A4F6492B0D1BF100A1B3F0 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				01A4F61D2B0D1C0000A1B3F0 /* StorageConstants.m */,
+				01A4F61E2B0D1C0000A1B3F0 /* MessageStorage.m */,
+				01A4F61F2B0D1C0000A1B3F0 /* ServerHistoryStorage.m */,
+			);
+			path = Storage;
+			sourceTree = SOURCE_ROOT;
+		};
+		01A4F64A2B0D1BF100A1B3F0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				01A4F6202B0D1C0000A1B3F0 /* AppDelegate.m */,
+				01A4F6212B0D1C0000A1B3F0 /* MainWindowController.m */,
+				01A4F62B2B0D1BF100A1B3F0 /* LoginWindowController.m */,
+				01A4F62C2B0D1BF100A1B3F0 /* ChatViewController.m */,
+				01A4F62D2B0D1BF100A1B3F0 /* ChatViewController+UI.m */,
+				01A4F62E2B0D1BF100A1B3F0 /* ChatViewController+Channel.m */,
+				01A4F62F2B0D1BF100A1B3F0 /* ChatViewController+Message.m */,
+				01A4F6302B0D1BF100A1B3F0 /* ChatViewController+IRC.m */,
+				01A4F6312B0D1BF100A1B3F0 /* ChatViewController+DataSource.m */,
+				01A4F6322B0D1BF100A1B3F0 /* ChatViewController+Menu.m */,
+				01A4F6332B0D1BF100A1B3F0 /* ChatViewController+Input.m */,
+				01A4F6342B0D1BF100A1B3F0 /* ChatViewController+Favorites.m */,
+				01A4F6352B0D1BF100A1B3F0 /* ChannelBuffer.m */,
+				01A4F6362B0D1BF100A1B3F0 /* ChannelListWindowController.m */,
+				01A4F6372B0D1BF100A1B3F0 /* LinksListWindowController.m */,
+				01A4F6382B0D1BF100A1B3F0 /* WhoisWindowController.m */,
+				01A4F6392B0D1BF100A1B3F0 /* HistoryWindowController.m */,
+				01A4F63A2B0D1BF100A1B3F0 /* SettingsWindowController.m */,
+				01A4F63B2B0D1BF100A1B3F0 /* LocalizationManager.m */,
+			);
+			path = UI;
+			sourceTree = SOURCE_ROOT;
+		};
+		01A4F64B2B0D1BF100A1B3F0 /* third-party */ = {
+			isa = PBXGroup;
+			children = (
+				01A4F64E2B0D1BF100A1B3F0 /* sqlite */,
+			);
+			path = "third-party";
+			sourceTree = SOURCE_ROOT;
+		};
+		01A4F64C2B0D1BF100A1B3F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01A4F63C2B0D1BF100A1B3F0 /* AppIcon.iconset */,
+				01A4F6572B0D1C0000A1B3F0 /* AppIcon.png */,
+				01A4F6512B0D1C0000A1B3F0 /* background.png */,
+				01A4F6532B0D1C0000A1B3F0 /* banner.gif */,
+				01A4F6552B0D1C0000A1B3F0 /* banner_horse.png */,
+				01A4F63D2B0D1BF100A1B3F0 /* en.lproj */,
+				01A4F63E2B0D1BF100A1B3F0 /* zh-Hans.lproj */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		01A4F64D2B0D1BF100A1B3F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01A4F6442B0D1BF100A1B3F0 /* Foundation.framework */,
+				01A4F6452B0D1BF100A1B3F0 /* Cocoa.framework */,
+				01A4F6462B0D1BF100A1B3F0 /* AppKit.framework */,
+				01A4F6472B0D1BF100A1B3F0 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01A4F64E2B0D1BF100A1B3F0 /* sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				01A4F6412B0D1BF100A1B3F0 /* sqlite3.c */,
+				01A4F6422B0D1BF100A1B3F0 /* sqlite3.h */,
+				01A4F6432B0D1BF100A1B3F0 /* sqlite3ext.h */,
+			);
+			path = sqlite;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01A4F6142B0D1BF000A1B3F0 /* i3Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01A4F6272B0D1BF000A1B3F0 /* Build configuration list for PBXNativeTarget "i3Chat" */;
+			buildPhases = (
+				01A4F6112B0D1BF000A1B3F0 /* Sources */,
+				01A4F6132B0D1BF000A1B3F0 /* Frameworks */,
+				01A4F6122B0D1BF000A1B3F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = i3Chat;
+			productName = i3Chat;
+			productReference = 01A4F6162B0D1BF000A1B3F0 /* i3Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01A4F60D2B0D1BF000A1B3F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					01A4F6142B0D1BF000A1B3F0 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 01A4F6102B0D1BF000A1B3F0 /* Build configuration list for PBXProject "i3Chat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 01A4F60E2B0D1BF000A1B3F0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 01A4F6152B0D1BF000A1B3F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01A4F6142B0D1BF000A1B3F0 /* i3Chat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01A4F6122B0D1BF000A1B3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A4F6422B0D1C0000A1B3F0 /* AppIcon.iconset in Resources */,
+				01A4F6562B0D1C0000A1B3F0 /* AppIcon.png in Resources */,
+				01A4F6502B0D1C0000A1B3F0 /* background.png in Resources */,
+				01A4F6522B0D1C0000A1B3F0 /* banner.gif in Resources */,
+				01A4F6542B0D1C0000A1B3F0 /* banner_horse.png in Resources */,
+				01A4F6432B0D1C0000A1B3F0 /* en.lproj in Resources */,
+				01A4F6442B0D1C0000A1B3F0 /* zh-Hans.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01A4F6112B0D1BF000A1B3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A4F6282B0D1C0000A1B3F0 /* sqlite3.c in Sources */,
+				01A4F6292B0D1C0000A1B3F0 /* main.m in Sources */,
+				01A4F62A2B0D1C0000A1B3F0 /* IRCConfig.m in Sources */,
+				01A4F62B2B0D1C0000A1B3F0 /* IRCClient.m in Sources */,
+				01A4F62C2B0D1C0000A1B3F0 /* StorageConstants.m in Sources */,
+				01A4F62D2B0D1C0000A1B3F0 /* MessageStorage.m in Sources */,
+				01A4F62E2B0D1C0000A1B3F0 /* ServerHistoryStorage.m in Sources */,
+				01A4F62F2B0D1C0000A1B3F0 /* AppDelegate.m in Sources */,
+				01A4F6302B0D1C0000A1B3F0 /* MainWindowController.m in Sources */,
+				01A4F6312B0D1C0000A1B3F0 /* LoginWindowController.m in Sources */,
+				01A4F6322B0D1C0000A1B3F0 /* ChatViewController.m in Sources */,
+				01A4F6332B0D1C0000A1B3F0 /* ChatViewController+UI.m in Sources */,
+				01A4F6342B0D1C0000A1B3F0 /* ChatViewController+Channel.m in Sources */,
+				01A4F6352B0D1C0000A1B3F0 /* ChatViewController+Message.m in Sources */,
+				01A4F6362B0D1C0000A1B3F0 /* ChatViewController+IRC.m in Sources */,
+				01A4F6372B0D1C0000A1B3F0 /* ChatViewController+DataSource.m in Sources */,
+				01A4F6382B0D1C0000A1B3F0 /* ChatViewController+Menu.m in Sources */,
+				01A4F6392B0D1C0000A1B3F0 /* ChatViewController+Input.m in Sources */,
+				01A4F63A2B0D1C0000A1B3F0 /* ChatViewController+Favorites.m in Sources */,
+				01A4F63B2B0D1C0000A1B3F0 /* ChannelBuffer.m in Sources */,
+				01A4F63C2B0D1C0000A1B3F0 /* ChannelListWindowController.m in Sources */,
+				01A4F63D2B0D1C0000A1B3F0 /* LinksListWindowController.m in Sources */,
+				01A4F63E2B0D1C0000A1B3F0 /* WhoisWindowController.m in Sources */,
+				01A4F63F2B0D1C0000A1B3F0 /* HistoryWindowController.m in Sources */,
+				01A4F6402B0D1C0000A1B3F0 /* SettingsWindowController.m in Sources */,
+				01A4F6412B0D1C0000A1B3F0 /* LocalizationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01A4F6182B0D1BF000A1B3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "-";
+				GCC_C_LANGUAGE_DIALECT = c11;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fobjc-arc";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		01A4F6192B0D1BF000A1B3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				GCC_C_LANGUAGE_DIALECT = c11;
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "-fobjc-arc";
+				SDKROOT = macosx;
+				STRIP_INSTALLED_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01A4F6232B0D1BF000A1B3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 39PBWNK457;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "i3chat -IRC Client for macOS";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.i3chat.ircclient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SYMROOT = build;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(SOURCE_ROOT)",
+					"$(SOURCE_ROOT)/IRCClient",
+					"$(SOURCE_ROOT)/Storage",
+					"$(SOURCE_ROOT)/UI",
+					"$(SOURCE_ROOT)/third-party/sqlite",
+				);
+			};
+			name = Debug;
+		};
+		01A4F6242B0D1BF000A1B3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 39PBWNK457;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "i3chat -IRC Client for macOS";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.i3chat.ircclient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = build;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(SOURCE_ROOT)",
+					"$(SOURCE_ROOT)/IRCClient",
+					"$(SOURCE_ROOT)/Storage",
+					"$(SOURCE_ROOT)/UI",
+					"$(SOURCE_ROOT)/third-party/sqlite",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01A4F6102B0D1BF000A1B3F0 /* Build configuration list for PBXProject "i3Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A4F6182B0D1BF000A1B3F0 /* Debug */,
+				01A4F6192B0D1BF000A1B3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01A4F6272B0D1BF000A1B3F0 /* Build configuration list for PBXNativeTarget "i3Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A4F6232B0D1BF000A1B3F0 /* Debug */,
+				01A4F6242B0D1BF000A1B3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01A4F60D2B0D1BF000A1B3F0 /* Project object */;
+}
